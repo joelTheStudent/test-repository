@@ -1,0 +1,30 @@
+# Ignore Node.js dependencies
+frontend/node_modules/
+frontend/node_modules/**
+
+# Ignore Python virtual environment
+backend/venv/
+backend/venv/**
+
+# (Optional but recommended additions)
+
+# Node logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Environment variables
+.env
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# SQLite database
+db.sqlite3
